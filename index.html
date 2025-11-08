@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="brand">
+        <h1 class="site-logo">JULIA DE SANTANA</h1>
+        <p class="tag">Técnica em automação | Cientista de Dados</p>
+      </div>
+      <nav class="nav-menu">
+        <a href="#certificados" class="nav-link active">Certificados</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+      </nav>
+      <button class="mobile-toggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Banner -->
+<section id="banner" class="banner-section">
+  <!-- Fundo de partículas -->
+  <canvas id="particles"></canvas>
+
+  <div class="container banner-inner">
+    <div class="banner-text">
+      <h2>Olá, eu sou <span class="highlight">Julia Santana</span></h2>
+      <h3 class="typing-text">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </h3>
+      <p>
+        Sou apaixonada por tecnologia e inovação. Como 
+        <strong>Técnica em Automação</strong>, 
+        <strong>Cientista de Dados</strong> e 
+        <strong>Desenvolvedora</strong>, 
+        adoro transformar ideias em soluções inteligentes e eficientes.
+      </p>
+      <div class="banner-cta">
+        <a href="#projetos" class="btn primary">Ver projetos</a>
+        <a href="#certificados" class="btn outline">Meus certificados</a>
+      </div>
+    </div>
+    <!-- <div class="banner-media">
+      <img src="imagens/banner-julia.png" alt="banner" />
+    </div> -->
+    <div class="banner-bottom">
+    <img src="imagens/banner-j.png" alt="Faixa inferior" class="banner-bottom-img" />
+  </div>
+  </div>
+</section>
+
+
+  <!-- Conteúdo Principal -->
+  <main class="container main-content">
+
+    <!-- Certificados -->
+    <section id="certificados" class="section">
+      <div class="section-header">
+        <h2>🎓 Certificados</h2>
+        <div class="controls">
+          <select id="filter">
+            <option value="todos">Todas as categorias</option>
+            <option value="tecnologia">Tecnologia</option>
+            <option value="design">Design</option>
+            <option value="marketing">Marketing</option>
+            <option value="idiomas">Idiomas</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="cert-grid" class="grid-cards">
+       
+<div class="card" data-cat="tecnologia" data-pdf="certificados\0PFKJAQZ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\0PFKJAQZ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Explorando Conjuntos em Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\0VB7VVQT.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\0VB7VVQT.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Contribuindo em um Projeto
+Open Source no GitHub</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\1OGW1WEX.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\1OGW1WEX.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Redes Neurais Artificiais</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\2US7HA20.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\2US7HA20.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Os Próximos Passos Para
+se Tornar um(a) Scrum Master</h2>
+      <p>Dio</p>
+    </div>
+
+     <div class="card" data-cat="tecnologia" data-pdf="certificados\4NMZXNV7.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\4NMZXNV7.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Tuplas Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\6HLL5GZX.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\6HLL5GZX.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Introdução ao Machine
+Learning</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\7HMSXYD3.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\7HMSXYD3.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Aula Inaugural: Coding The
+Future Squadio - Python
+Data Analytics</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\8QRYHE8K.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\8QRYHE8K.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Exercite sua Lógica com
+Desafios de Código em
+Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\8URL6PLC.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\8URL6PLC.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Aprendendo o Conceito de
+Herança com Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\26IJG0LR.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\26IJG0LR.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Aprendendo Estruturas de
+Dados com Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\36XZTYYU.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\36XZTYYU.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Sobre os Artefatos e Seus
+Compromissos</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\A4MLKZZE.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\A4MLKZZE.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Introdução à Programação
+Orientada a Objetos (POO)
+com Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\Agrupando Registros e Tabelas.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Agrupando Registros e Tabelas.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Agrupando Registros e Tabelas
+com Join Statement</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\AJGZQRVG.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\AJGZQRVG.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Construa um Projeto Lógico de
+Banco de Dados do
+Zero</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\AM0QWLY7.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\AM0QWLY7.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Dominando Python e Suas
+Estruturas de Dados</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\Arquitetura de BD.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Arquitetura de BD.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Arquitetura de Banco de
+Dados</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\B75CXNFA.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\B75CXNFA.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Certificação de Professional
+Scrum Master I (PSMI)</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\BATZVAWK.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\BATZVAWK.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Primeiros Passos em SQL e
+NoSQL</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\BHECCBXI.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\BHECCBXI.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Hands-on: Compreendendo o
+Scrum na Prática</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\BIRIOBTY.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\BIRIOBTY.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Introdução a Banco de Dados</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\BOA7WUWK.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\BOA7WUWK.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Lidando com Data, Hora e
+Fuso Horário no Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\BTTDOTIM.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\BTTDOTIM.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Decoradores, Iteradores e
+Geradores com Python</h2>
+      <p>Dio</p>
+    </div>
+
+    <div class="card" data-cat="tecnologia" data-pdf="certificados\BV332BKG.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\BV332BKG.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Criando um Dashboard
+corporativo com integração
+com MySQL e Azure</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\CLRNX129.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\CLRNX129.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Linguagens de Programação
+para Machine Learning</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\CMY8T6R0.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\CMY8T6R0.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Modelando o Sistema Bancário
+em POO com Python</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Criando Queries com Funções.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Criando Queries com Funções.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>Criando Queries com Funções
+e Cláusulas de
+Agrupamentos</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\CRPVSKO8.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\CRPVSKO8.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\CU5PVOSM.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\CU5PVOSM.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\CX182CHQ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\CX182CHQ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\CZFEXWP4.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\CZFEXWP4.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\DD1ZVFPC.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\DD1ZVFPC.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\DN4HRQ1Z.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\DN4HRQ1Z.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\DPLFD2LR.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\DPLFD2LR.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\DT2DRHIA.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\DT2DRHIA.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\EDZD4WAU.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\EDZD4WAU.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\ERX5M4UT.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ERX5M4UT.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\ES1DQYBH.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ES1DQYBH.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Explorando Queries com SQL.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Explorando Queries com SQL.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\EZHL48ED.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\EZHL48ED.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\FKDK5ABL.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\FKDK5ABL.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Fundamentos de Modelagem.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Fundamentos de Modelagem.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\FUWAH7S7.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\FUWAH7S7.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\GA7T7PLA.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\GA7T7PLA.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\GKVO8KWD.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\GKVO8KWD.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\HJPCNMKU.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\HJPCNMKU.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\HJR7C9EX.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\HJR7C9EX.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\HY9DLLP9.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\HY9DLLP9.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\I3GTIZLE.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\I3GTIZLE.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\IA Generativa ETL python.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\IA Generativa ETL python.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Introdução à Ciência de Dados.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Introdução à Ciência de Dados.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\IOSNQFI8.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\IOSNQFI8.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\J77DQ1A0.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\J77DQ1A0.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\JIYGLWGT.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\JIYGLWGT.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\JJW9KDEL.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\JJW9KDEL.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\JLIGZART.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\JLIGZART.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\JTLRK6ZK.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\JTLRK6ZK.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\K7N3OZ7U.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\K7N3OZ7U.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\KKJFIRMY.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\KKJFIRMY.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\KKZG6B48.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\KKZG6B48.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\KWN9J1WM.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\KWN9J1WM.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\LSVOLAJ8.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\LSVOLAJ8.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\MJNMODKD.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\MJNMODKD.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Modelagem de Dados para.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Modelagem de Dados para.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Modelo entidade.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Modelo entidade.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Modelo Relacional.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Modelo Relacional.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\N9INM1VW.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\N9INM1VW.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\NA4PTHAU.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\NA4PTHAU.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\NIFXHPVZ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\NIFXHPVZ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\NJ50YEJ2.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\NJ50YEJ2.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\OPCRN6DU.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\OPCRN6DU.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\OVSVIIMJ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\OVSVIIMJ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\P4Z8DYZS.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\P4Z8DYZS.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\PCNRA1O5.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\PCNRA1O5.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Potência Tech powered by iFood.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Potência Tech powered by iFood.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\PQ55IJE3.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\PQ55IJE3.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Primeiros Passos com SQL.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Primeiros Passos com SQL.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Projetos Lógicos SQL.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Projetos Lógicos SQL.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\PSDXM65T.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\PSDXM65T.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\PTPC2BPJ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\PTPC2BPJ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\PVNTUTSO.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\PVNTUTSO.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\QTTMRVIT.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\QTTMRVIT.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\QZACNNJO.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\QZACNNJO.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\QZQRPVVB.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\QZQRPVVB.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\R34M14OC.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\R34M14OC.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RE8CADTQ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RE8CADTQ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Relacionamento com BD.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Relacionamento com BD.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RESOLVENDO CÓDIGOS.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RESOLVENDO CÓDIGOS.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RFAPIM7A.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RFAPIM7A.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RILOR5JN.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RILOR5JN.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RRINAGMX.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RRINAGMX.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RV0GXIUV.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RV0GXIUV.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RVKCOAXA.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RVKCOAXA.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\RXZBMXFC.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\RXZBMXFC.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\S5XES2RH.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\S5XES2RH.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\Santander Bootcamp 2023 - Ciência de Dados python.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Santander Bootcamp 2023 - Ciência de Dados python.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\SC5MM5WO.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\SC5MM5WO.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\SKMVWY6Y.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\SKMVWY6Y.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+   <div class="card" data-cat="tecnologia" data-pdf="certificados\SOWRRYDS.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\SOWRRYDS.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\T8PHCM4Q.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\T8PHCM4Q.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\TBVN6VFZ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\TBVN6VFZ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\TEEPOY7R.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\TEEPOY7R.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\TWBZTXB4.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\TWBZTXB4.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\U3FZQEPY.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\U3FZQEPY.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\UEJDV7XU.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\UEJDV7XU.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\VFZTICMS.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\VFZTICMS.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\VOFOE3XY.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\VOFOE3XY.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\VR7COAK3.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\VR7COAK3.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\WI406L5S.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\WI406L5S.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\XJIORF0Y.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\XJIORF0Y.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\XJRUM0HX.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\XJRUM0HX.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\Y3OI52Y5.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Y3OI52Y5.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\Y6FN201N.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\Y6FN201N.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\ZDSMZQ9A.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ZDSMZQ9A.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\ZJAENIZB.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ZJAENIZB.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\ZJWKTOHO.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ZJWKTOHO.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\ZQLHCYUE.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ZQLHCYUE.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\ZVM6ZFAL.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ZVM6ZFAL.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>
+
+  <div class="card" data-cat="tecnologia" data-pdf="certificados\ZZLE7QYQ.pdf">
+      <div class="pdf-preview">
+        <embed src="certificados\ZZLE7QYQ.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      </div>
+      <h2>x</h2>
+      <p>Dio</p>
+    </div>    
+      </div>
+      <div class="ver-mais-container">
+    <button id="ver-mais" class="btn outline">Ver mais certificados</button>
+  </div>
+    </section>
+
+<section id="projetos" class="section">
+  <div class="section-header">
+    <h2>💼 Projetos</h2>
+  </div>
+
+  <div id="proj-grid" class="grid-cards collapsed">
+    <!-- Card 1 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 1" />
+        <div class="card-body">
+          <h2>Smart Glass</h2>
+          <p class="muted">App web para gerenciamento de paradas de máquina.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 2" />
+        <div class="card-body">
+          <h2>Smart Mold</h2>
+          <p class="muted">App web para lançamento de PTP e controle de moldes.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 3" />
+        <div class="card-body">
+          <h2>Virtualização de supervisórios</h2>
+          <p class="muted">Virtualização de scadas e supervisórios utilizando HCI e VEEAM.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 4" />
+        <div class="card-body">
+          <h2>Segregação de rede</h2>
+          <p class="muted">Conexão de rede com switch core e segregação por VLAN.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 5" />
+        <div class="card-body">
+          <h2>Pressão IS</h2>
+          <p class="muted">Supervisório de pressão IS, instalação do zero para puxar os dados.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 6" />
+        <div class="card-body">
+          <h2>Rejeito automático IS</h2>
+          <p class="muted">Rejeito automático de garrafas quando o transporte entope trazendo segurança.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 7" />
+        <div class="card-body">
+          <h2>Criação de Servidor</h2>
+          <p class="muted">Criação de servidor do zero com ESXI para gerenciamento de VMs.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="card project-card">
+      <a href="projetos/projeto1.html" class="card-link">
+        <img src="imagens/agg.jpg" alt="Projeto 8" />
+        <div class="card-body">
+          <h2>Dashboard GLY</h2>
+          <p class="muted">Dashboard para acompanhar eficiência de produção por turma.</p>
+        </div>
+      </a>
+    </div>
+
+
+  </div>
+
+  <div class="ver-mais-container">
+    <button id="ver-mais-projetos" class="btn outline">Ver mais projetos</button>
+  </div>
+</section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="sobre-section">
+  <div class="container sobre-inner">
+    <!-- FOTO + LINKS -->
+    <div class="sobre-foto">
+      <img src="imagens/julia-perfil.jpg" alt="Foto de Julia Santana">
+
+      <div class="sobre-redes">
+        <a href="https://github.com/juliasntn" target="_blank" class="rede-btn github">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/julia-s-040a12180/" target="_blank" class="rede-btn linkedin">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <!-- TEXTO -->
+    <div class="sobre-texto">
+      <h2>Sobre mim</h2>
+      <p>
+        Olá! Eu sou <strong>Julia Santana</strong>, apaixonada por tecnologia e inovação. 
+        Tenho formação técnica em <strong>Automação Industrial</strong>, sou 
+        <strong>Cientista de Dados</strong> e <strong>Desenvolvedora</strong> com foco em criar 
+        soluções inteligentes que unem hardware e software.
+      </p>
+
+      <!-- INFORMAÇÕES PESSOAIS -->
+      <ul class="sobre-info">
+        <li><strong>Idade:</strong> 23 anos</li>
+        <li><strong>Local:</strong> Rio de Janeiro, RJ</li>
+        <li><strong>Email:</strong> <a href="mailto:contato.falecomjuliasantana@gmail.com?subject=Contato%20via%20currículo&body=Olá%20Julia%2C%20vi%20seu%20currículo%20e%20gostaria%20de%20conversar.">falecomjuliasantana@gmail.com</a></li>
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/5521973011979?text=Olá%2C+vim+pelo+seu+currículo!" target="_blank">+55 21 97301-1979</a></li>
+      </ul>
+
+      <!-- SKILLS -->
+      <h3>Skills</h3>
+      <div class="skills-list">
+        <span>LADDER</span><span>FBD</span><span>PYTHON</span><span>SQL</span>
+        <span>POWER BI</span><span>DOCKER</span><span>GRAFANA</span>
+        <span>MANUTENÇÃO</span><span>ELÉTRICA</span><span>AUTOMAÇÃO</span>
+        <span>REDES INDUSTRIAIS</span><span>ENTRE OUTROS</span>
+      </div>
+
+      <!-- EXPERIÊNCIAS -->
+      <h3>Experiência</h3>
+      <div class="experiencia">
+
+        <!-- EXPERIÊNCIA 1 -->
+        <div class="exp-item">
+          <div class="exp-top">
+            <h4>Técnico em Automação — ITF</h4>
+            <span>Out 2023 - o momento · 2 anos 2 meses | Híbrido</span>
+          </div>
+          <p class="exp-previa">
+            Desenvolvimento e implementação de melhorias operacionais, programação de CLPs e integração de redes industriais.
+          </p>
+          <button class="btn exp-btn" data-target="exp1">Saiba mais</button>
+          <div class="exp-detalhes" id="exp1">
+            <ul>
+              <li>Desenvolvimento e implementação de melhorias operacionais em campo.</li>
+              <li>Programação de CLPs e integração de redes industriais.</li>
+              <li>Gestão e criação de bancos de dados operacionais e técnicos.</li>
+              <li>Coleta e análise de dados para decisões estratégicas.</li>
+              <li>Desenvolvimento de plataformas digitais de automação.</li>
+              <li>Projetos de cyber security para redes industriais.</li>
+              <li>Implementação de novas tecnologias e soluções digitais.</li>
+              <li>Capacitações e treinamentos internos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- EXPERIÊNCIA 2 -->
+        <div class="exp-item">
+          <div class="exp-top">
+            <h4>Técnico em Automação</h4>
+          <span>Set 2022 - Out 2023 · 1 ano 2 meses | Presencial</span>
+          </div>
+          <p class="exp-previa">
+            Desenvolvimento de melhorias operacionais, manutenção de sistemas industriais e liderança de boas práticas.
+          </p>
+          <button class="btn exp-btn" data-target="exp2">Saiba mais</button>
+          <div class="exp-detalhes" id="exp2">
+            <ul>
+              <li>Desenvolvimento de melhorias operacionais para campo.</li>
+              <li>Suporte em manutenções preventivas, corretivas e emergenciais.</li>
+              <li>Atuação como Champion em manutenção.</li>
+              <li>Programação e ajustes em CLPs.</li>
+              <li>Implantação e manutenção de redes industriais.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- EXPERIÊNCIA 3 -->
+        <div class="exp-item">
+          <div class="exp-top">
+            <h4>Estagiário de Automação</h4>
+            <span>Nov 2021 - Ago 2022 · 10 meses | Presencial</span>
+          </div>
+          <p class="exp-previa">
+            Apoio em manutenções preventivas e projetos de melhoria de performance de sistemas e redes.
+          </p>
+          <button class="btn exp-btn" data-target="exp3">Saiba mais</button>
+          <div class="exp-detalhes" id="exp3">
+            <ul>
+              <li>Apoio em manutenções preventivas e corretivas.</li>
+              <li>Participação no desenvolvimento de projetos de melhoria.</li>
+              <li>Criação e configuração de redes industriais.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 • Julia Santana — Desenvolvido por você</p>
+    </div>
+  </footer>
+
+  <!-- Modal para PDF -->
+  <div id="pdf-modal" class="pdf-modal" aria-hidden="true">
+    <div class="pdf-content">
+      <button id="close-modal" class="close-modal" aria-label="Fechar">✖</button>
+      <iframe id="pdf-frame" src="" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
