@@ -8,24 +8,29 @@ navLinks.forEach(l => l.classList.remove('active'));
 link.classList.add('active');
 }));
 
-// tema claro/escuro
+// tema escuro e claro
 const themeBtn = document.getElementById('theme-toggle');
-if(localStorage.getItem('theme') === 'dark'){
-document.documentElement.setAttribute('data-theme','dark');
-themeBtn.textContent = '☀️';
+// Aplica tema salvo
+if (localStorage.getItem('theme') === 'dark') {
+  document.documentElement.setAttribute('data-theme', 'dark');
+  themeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+} else {
+  themeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
 }
 
-themeBtn.addEventListener('click', ()=>{
-const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-if(isDark){
-document.documentElement.removeAttribute('data-theme');
-themeBtn.textContent = '🌙';
-localStorage.setItem('theme','light');
-} else {
-document.documentElement.setAttribute('data-theme','dark');
-themeBtn.textContent = '☀️';
-localStorage.setItem('theme','dark');
-}
+// Alterna tema ao clicar
+themeBtn.addEventListener('click', () => {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+
+  if (isDark) {
+    document.documentElement.removeAttribute('data-theme');
+    themeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    themeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    localStorage.setItem('theme', 'dark');
+  }
 });
 
 // Mobile menu toggle
