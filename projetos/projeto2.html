@@ -56,42 +56,92 @@
 
 <section class="projeto-detalhes fade">
     <h2>Informações do Projeto</h2>
-    <p>
-        O sistema desenvolvido realiza coleta de dados em tempo real de sensores industriais, processando as informações via Python e armazenando em banco de dados SQL. 
-        Utilizando Docker para containerização e Grafana para visualização, o projeto oferece painéis dinâmicos e alertas de performance.
-    </p>
-    <p>
-        O foco principal foi criar uma solução escalável e de fácil manutenção, com segurança reforçada e automação dos processos de coleta e análise.
-    </p>
     
-    <h3>Contexto e Problemas Anteriores</h3>
-    <p>
-        Anteriormente, a equipe de moldes realizava as medições manualmente, anotando em papel e, ao final do dia, lançando os dados em uma plataforma terceira para armazenamento. 
-        Esse processo apresentava falhas críticas: ocorria perda de papéis com frequência, e houve casos em que a plataforma externa perdeu dados devido a sobrecargas do sistema.
-    </p>
+    <div class="detalhes-grid">
+        <div class="detalhe-item">
+            <i class="fas fa-sensor"></i>
+            <div>
+                <h3>Coleta em Tempo Real</h3>
+                <p>Coleta de dados em tempo real de sensores industriais com processamento via Python e armazenamento em banco SQL.</p>
+            </div>
+        </div>
+        
+        <div class="detalhe-item">
+            <i class="fas fa-docker"></i>
+            <div>
+                <h3>Containerização</h3>
+                <p>Utilização de Docker para containerização e Grafana para visualização de painéis dinâmicos e alertas de performance.</p>
+            </div>
+        </div>
+        
+        <div class="detalhe-item">
+            <i class="fas fa-expand-arrows-alt"></i>
+            <div>
+                <h3>Solução Escalável</h3>
+                <p>Foco na criação de solução escalável e de fácil manutenção, com segurança reforçada e automação completa.</p>
+            </div>
+        </div>
+        
+        <div class="detalhe-item">
+            <i class="fas fa-server"></i>
+            <div>
+                <h3>Infraestrutura Robusta</h3>
+                <p>Investimento em servidor PowerEdge R260 para garantir redundância e alta disponibilidade do sistema.</p>
+            </div>
+        </div>
+    </div>
     
-    <h3>Solução Desenvolvida</h3>
-    <p>
-        Para resolver essas dores operacionais, desenvolvemos uma plataforma personalizada com as seguintes funcionalidades:
-    </p>
-    <ul>
-        <li>Banco de dados redundante (cada lançamento é armazenado em dois bancos de dados em servidores diferentes)</li>
-        <li>Backup automático de dados</li>
-        <li>Controle de acesso por login e senha</li>
-        <li>Área exclusiva para modificações do PTP com login específico para a equipe de qualidade</li>
-        <li>Área para comentários quando houver parâmetros fora do PTP</li>
-        <li>Sistema de confirmação de valores</li>
-        <li>Área para verificação de histórico</li>
-        <li>Módulo para verificação de frequência analítica</li>
-    </ul>
+    <div class="contexto-problema">
+        <h3>Contexto e Problemas Anteriores</h3>
+        <div class="problema-card">
+            <i class="fas fa-exclamation-triangle"></i>
+            <div>
+                <h4>Processo Manual Ineficiente</h4>
+                <p>Medições manuais com anotações em papel e lançamento em plataforma terceira ao final do dia.</p>
+            </div>
+        </div>
+        <div class="problema-card">
+            <i class="fas fa-times-circle"></i>
+            <div>
+                <h4>Falhas Críticas</h4>
+                <p>Perda frequente de papéis com anotações e perda de dados na plataforma externa devido a sobrecargas do sistema.</p>
+            </div>
+        </div>
+    </div>
     
-    <h3>Investimento e Equipe</h3>
-    <p>
-        O projeto exigiu a aquisição de um servidor adicional PowerEdge R260 no valor de R$ 13.669,84 para garantir a redundância do banco de dados, considerando a criticidade dessas informações para nossos processos.
-    </p>
-    <p>
-        Este foi um projeto conjunto desenvolvido em parceria com o técnico Kevin Jordão, que atualmente é o responsável pela manutenção do sistema.
-    </p>
+    <div class="funcionalidades">
+        <h3>Solução Desenvolvida - Funcionalidades</h3>
+        <ul>
+            <li>Banco de dados redundante (armazenamento em dois servidores diferentes)</li>
+            <li>Backup automático de dados</li>
+            <li>Controle de acesso por login e senha</li>
+            <li>Área exclusiva para modificações do PTP com login específico para qualidade</li>
+            <li>Área para comentários quando houver parâmetros fora do PTP</li>
+            <li>Sistema de confirmação de valores</li>
+            <li>Área para verificação de histórico completo</li>
+            <li>Módulo para verificação de frequência analítica</li>
+        </ul>
+    </div>
+    
+    <div class="investimento-equipe">
+        <div class="investimento-card">
+            <i class="fas fa-money-bill-wave"></i>
+            <div>
+                <h3>Investimento em Infraestrutura</h3>
+                <p><strong>Servidor PowerEdge R260:</strong> R$ 13.669,84</p>
+                <p><strong>Objetivo:</strong> Garantir redundância do banco de dados considerando a criticidade das informações para os processos.</p>
+            </div>
+        </div>
+        
+        <div class="equipe-card">
+            <i class="fas fa-users"></i>
+            <div>
+                <h3>Equipe do Projeto</h3>
+                <p><strong>Desenvolvimento conjunto:</strong> Parceria com o técnico Kevin Jordão</p>
+                <p><strong>Responsável pela manutenção:</strong> Kevin Jordão</p>
+            </div>
+        </div>
+    </div>
 </section>
 
     <section class="projeto-galeria fade">
@@ -115,6 +165,195 @@
     <p>© 2025 • Julia Santana — Todos os direitos reservados.</p>
   </footer>
 
+<style>
+.projeto-detalhes {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.detalhes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.detalhe-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.detalhe-item:hover {
+    transform: translateY(-5px);
+}
+
+.detalhe-item i {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-top: 0.25rem;
+}
+
+.detalhe-item h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+}
+
+.detalhe-item p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.contexto-problema {
+    background: #fff3cd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #ffc107;
+}
+
+.contexto-problema h3 {
+    color: #856404;
+    margin-bottom: 1rem;
+}
+
+.problema-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.problema-card:last-child {
+    margin-bottom: 0;
+}
+
+.problema-card i {
+    font-size: 1.25rem;
+    color: #dc3545;
+    margin-top: 0.25rem;
+}
+
+.problema-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: #dc3545;
+}
+
+.problema-card p {
+    margin: 0;
+    color: #666;
+}
+
+.funcionalidades {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.funcionalidades h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.funcionalidades ul {
+    columns: 2;
+    gap: 2rem;
+}
+
+.funcionalidades li {
+    margin-bottom: 0.75rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.funcionalidades li:before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.investimento-equipe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.investimento-card, .equipe-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.investimento-card {
+    border-left: 4px solid #28a745;
+}
+
+.equipe-card {
+    border-left: 4px solid #6f42c1;
+}
+
+.investimento-card i {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-top: 0.25rem;
+}
+
+.equipe-card i {
+    font-size: 1.5rem;
+    color: #6f42c1;
+    margin-top: 0.25rem;
+}
+
+.investimento-card h3, .equipe-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+}
+
+.investimento-card p, .equipe-card p {
+    margin: 0 0 0.5rem 0;
+    color: #666;
+}
+
+.investimento-card p:last-child, .equipe-card p:last-child {
+    margin-bottom: 0;
+}
+
+.investimento-card strong, .equipe-card strong {
+    color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+    .funcionalidades ul {
+        columns: 1;
+    }
+    
+    .detalhes-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .investimento-equipe {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>

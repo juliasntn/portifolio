@@ -57,19 +57,63 @@
     </section>
 
     <section class="projeto-detalhes fade">
-      <h2>Informações do Projeto</h2>
-  <p>
-    O sistema coleta dados de parada de máquina diretamente do CLP através do protocolo OPC UA, fornecendo em tempo real o status e o tempo de inatividade de cada equipamento.
-  </p>
-  <p>
-    Este projeto teve como principal objetivo substituir duas plataformas anteriores (G-Vidros e cálculo de MTBF/MTTR via SAP) que apresentavam baixa precisão devido à dependência de alimentação manual de dados, eliminando assim as falhas humanas no input das informações.
-  </p>
-  <p>
-    <strong>Principais funcionalidades:</strong> verificação de tempo de parada, classificação de tipo de falha, identificação de paradas programadas, integração com 5 Porquês, comparação de indicadores entre máquinas e cálculo automático de MTBF, MTTR e percentual de paradas programadas.
-  </p>
-  <p>
-    <strong>Resultado financeiro:</strong> economia de R$ 120.000,00 que seria gasto com solução externa, além da vantagem do lançamento automático de paradas, eliminando a dependência de input manual.
-  </p>
+  <h2>Informações do Projeto</h2>
+  
+  <div class="detalhes-grid">
+    <div class="detalhe-item">
+      <i class="fas fa-plug"></i>
+      <div>
+        <h3>Coleta Automática de Dados</h3>
+        <p>Coleta dados de parada de máquina diretamente do CLP através do protocolo OPC UA, fornecendo em tempo real o status e o tempo de inatividade de cada equipamento.</p>
+      </div>
+    </div>
+    
+    <div class="detalhe-item">
+      <i class="fas fa-sync-alt"></i>
+      <div>
+        <h3>Substituição de Sistemas</h3>
+        <p>Substituiu duas plataformas anteriores (G-Vidros e cálculo de MTBF/MTTR via SAP) que apresentavam baixa precisão devido à dependência de alimentação manual de dados.</p>
+      </div>
+    </div>
+    
+    <div class="detalhe-item">
+      <i class="fas fa-bug"></i>
+      <div>
+        <h3>Eliminação de Falhas Humanas</h3>
+        <p>Sistema eliminou completamente as falhas humanas no input das informações através da automação do processo de coleta.</p>
+      </div>
+    </div>
+    
+    <div class="detalhe-item">
+      <i class="fas fa-chart-bar"></i>
+      <div>
+        <h3>Análises Avançadas</h3>
+        <p>Cálculo automático de MTBF, MTTR e percentual de paradas programadas com comparação de indicadores entre máquinas.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="funcionalidades">
+    <h3>Principais Funcionalidades</h3>
+    <ul>
+      <li>Verificação de tempo de parada em tempo real</li>
+      <li>Classificação de tipo de falha</li>
+      <li>Identificação de paradas programadas</li>
+      <li>Integração com metodologia 5 Porquês</li>
+      <li>Comparação de indicadores entre máquinas</li>
+      <li>Cálculo automático de MTBF e MTTR</li>
+      <li>Cálculo de percentual de paradas programadas</li>
+      <li>Interface OPC UA para comunicação com CLPs</li>
+    </ul>
+  </div>
+  
+  <div class="impacto">
+    <h3>Resultados e Impacto Financeiro</h3>
+    <p><strong>Economia direta:</strong> R$ 120.000,00 que seriam gastos com solução externa</p>
+    <p><strong>Vantagem competitiva:</strong> Lançamento automático de paradas eliminando a dependência de input manual</p>
+    <p><strong>Melhoria na precisão:</strong> Eliminação completa de falhas humanas no registro de dados</p>
+    <p><strong>Eficiência operacional:</strong> Substituição de dois sistemas anteriores por uma solução integrada</p>
+  </div>
 </section>
 
     <section class="projeto-galeria fade">
@@ -92,7 +136,111 @@
   <footer class="footer">
     <p>© 2025 • Julia Santana — Todos os direitos reservados.</p>
   </footer>
-
+  <style>
+    .projeto-detalhes {
+      background: #f8f9fa;
+      padding: 2rem;
+      border-radius: 12px;
+      margin: 2rem 0;
+    }
+    
+    .detalhes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .detalhe-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    
+    .detalhe-item:hover {
+      transform: translateY(-5px);
+    }
+    
+    .detalhe-item i {
+      font-size: 1.5rem;
+      color: #3498db;
+      margin-top: 0.25rem;
+    }
+    
+    .detalhe-item h3 {
+      margin: 0 0 0.5rem 0;
+      color: #2c3e50;
+    }
+    
+    .detalhe-item p {
+      margin: 0;
+      color: #666;
+      line-height: 1.5;
+    }
+    
+    .funcionalidades {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+    
+    .funcionalidades h3 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+    
+    .funcionalidades ul {
+      columns: 2;
+      gap: 2rem;
+    }
+    
+    .funcionalidades li {
+      margin-bottom: 0.75rem;
+      padding-left: 1rem;
+      position: relative;
+    }
+    
+    .funcionalidades li:before {
+      content: "•";
+      color: #3498db;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+    
+    .impacto {
+      background: #e8f4fc;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border-left: 4px solid #3498db;
+    }
+    
+    .impacto h3 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+    
+    .impacto p {
+      margin: 0;
+      line-height: 1.6;
+    }
+    
+    @media (max-width: 768px) {
+      .funcionalidades ul {
+        columns: 1;
+      }
+      
+      .detalhes-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>
