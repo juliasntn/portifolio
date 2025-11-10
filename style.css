@@ -171,6 +171,7 @@ body {
 @media (min-width: 1400px) {
   .grid-cards {
     grid-template-columns: repeat(5, 1fr);
+
   }
 }
 .card {
@@ -222,7 +223,6 @@ body {
   background: #1a1f2b;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
-
 
 /* Footer */
 .site-footer {
@@ -711,6 +711,8 @@ body {
 @media (max-width: 600px) {
   #proj-grid {
     grid-template-columns: 1fr;
+    justify-items: center; /* centraliza o único card */
+
   }
 }
 
