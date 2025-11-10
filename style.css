@@ -716,6 +716,14 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  #cert-grid {
+    grid-template-columns: 1fr;
+    justify-items: center; /* centraliza o único card */
+
+  }
+}
+
 /* Card de projeto */
 .project-card {
   display: flex;
