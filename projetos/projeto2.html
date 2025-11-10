@@ -29,44 +29,77 @@
   <!-- Conteúdo do projeto -->
   <main class="projeto-page container">
     <div class="projeto-capa">
-      <img src="../imagens/projetos/meu-projeto.jpg" alt="Imagem do Projeto">
+      <img src="../imagens/projetos/smartmold.png" alt="Imagem do Projeto">
     </div>
 
     <div class="projeto-info fade">
       <h1>SMART MOLD</h1>
       <p>
-        Este projeto foi desenvolvido com o objetivo de otimizar o processo de monitoramento e análise de dados em ambientes industriais, integrando sensores IoT e dashboards inteligentes.
+         Plataforma digital para PTP de moldes que substitui formulários em papel 
+    e sistemas terceiros, oferecendo interface web e mobile para maior 
+    eficiência operacional e autonomia no armazenamento de dados.
       </p>
     </div>
 
     <section class="projeto-tecnologias fade">
       <h2>Tecnologias Utilizadas</h2>
       <div class="tech-list">
-        <span>Python</span>
+        <span>Fast API</span>
         <span>Grafana</span>
         <span>Docker</span>
-        <span>SQL</span>
-        <span>Node-RED</span>
+        <span>SQL Server</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JS</span>
       </div>
     </section>
 
-    <section class="projeto-detalhes fade">
-      <h2>Informações do Projeto</h2>
-      <p>
-        O sistema desenvolvido realiza coleta de dados em tempo real de sensores industriais, processando as informações via Python e armazenando em um banco de dados SQL. 
+<section class="projeto-detalhes fade">
+    <h2>Informações do Projeto</h2>
+    <p>
+        O sistema desenvolvido realiza coleta de dados em tempo real de sensores industriais, processando as informações via Python e armazenando em banco de dados SQL. 
         Utilizando Docker para containerização e Grafana para visualização, o projeto oferece painéis dinâmicos e alertas de performance.
-      </p>
-      <p>
-        O foco principal foi criar uma solução escalável e fácil de manter, com segurança reforçada e automação de processos de coleta e análise.
-      </p>
-    </section>
+    </p>
+    <p>
+        O foco principal foi criar uma solução escalável e de fácil manutenção, com segurança reforçada e automação dos processos de coleta e análise.
+    </p>
+    
+    <h3>Contexto e Problemas Anteriores</h3>
+    <p>
+        Anteriormente, a equipe de moldes realizava as medições manualmente, anotando em papel e, ao final do dia, lançando os dados em uma plataforma terceira para armazenamento. 
+        Esse processo apresentava falhas críticas: ocorria perda de papéis com frequência, e houve casos em que a plataforma externa perdeu dados devido a sobrecargas do sistema.
+    </p>
+    
+    <h3>Solução Desenvolvida</h3>
+    <p>
+        Para resolver essas dores operacionais, desenvolvemos uma plataforma personalizada com as seguintes funcionalidades:
+    </p>
+    <ul>
+        <li>Banco de dados redundante (cada lançamento é armazenado em dois bancos de dados em servidores diferentes)</li>
+        <li>Backup automático de dados</li>
+        <li>Controle de acesso por login e senha</li>
+        <li>Área exclusiva para modificações do PTP com login específico para a equipe de qualidade</li>
+        <li>Área para comentários quando houver parâmetros fora do PTP</li>
+        <li>Sistema de confirmação de valores</li>
+        <li>Área para verificação de histórico</li>
+        <li>Módulo para verificação de frequência analítica</li>
+    </ul>
+    
+    <h3>Investimento e Equipe</h3>
+    <p>
+        O projeto exigiu a aquisição de um servidor adicional PowerEdge R260 no valor de R$ 13.669,84 para garantir a redundância do banco de dados, considerando a criticidade dessas informações para nossos processos.
+    </p>
+    <p>
+        Este foi um projeto conjunto desenvolvido em parceria com o técnico Kevin Jordão, que atualmente é o responsável pela manutenção do sistema.
+    </p>
+</section>
 
     <section class="projeto-galeria fade">
       <h2>Galeria</h2>
       <div class="galeria-grid">
-        <img src="../imagens/projetos/foto1.jpg" alt="Imagem do projeto 1">
-        <img src="../imagens/projetos/foto2.jpg" alt="Imagem do projeto 2">
-        <img src="../imagens/projetos/foto3.jpg" alt="Imagem do projeto 3">
+        <img src="../imagens/projetos/smartmold.png" alt="Imagem do projeto 1">
+        <img src="../imagens/projetos/smartmold2.png" alt="Imagem do projeto 2">
+        <img src="../imagens/projetos/smartmold3.png" alt="Imagem do projeto 3">
       </div>
     </section>
 

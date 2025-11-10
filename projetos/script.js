@@ -26,13 +26,13 @@ window.addEventListener("scroll", handleFade);
 window.addEventListener("load", handleFade);
 
 // Parallax na imagem
-const banner = document.querySelector(".projeto-capa img");
-if (banner) {
-  window.addEventListener("scroll", () => {
-    const offset = window.scrollY * 0.3;
-    banner.style.transform = `translateY(${offset}px) scale(1.05)`;
-  });
-}
+// const banner = document.querySelector(".projeto-capa img");
+// if (banner) {
+//   window.addEventListener("scroll", () => {
+//     const offset = window.scrollY * 0.3;
+//     banner.style.transform = `translateY(${offset}px) scale(1.05)`;
+//   });
+// }
 
 // Galeria clicável
 document.querySelectorAll(".galeria-grid img").forEach(img => {

@@ -29,44 +29,55 @@
   <!-- Conteúdo do projeto -->
   <main class="projeto-page container">
     <div class="projeto-capa">
-      <img src="../imagens/projetos/meu-projeto.jpg" alt="Imagem do Projeto">
+      <img src="../imagens/projetos/smartglass.png" alt="Imagem do Projeto">
     </div>
 
     <div class="projeto-info fade">
       <h1>SMART GLASS</h1>
       <p>
-        Este projeto foi desenvolvido com o objetivo de otimizar o processo de monitoramento e análise de dados em ambientes industriais, integrando sensores IoT e dashboards inteligentes.
+        Este projeto visa monitorar e analisar as paradas de máquinas, 
+        fornecendo os principais indicadores de desempenho, como MTBF 
+        (Tempo Médio Entre Falhas) e MTTR (Tempo Médio Para Reparo). A plataforma também permite 
+        a comparação entre diferentes equipamentos, facilitando a identificação de oportunidades de 
+        melhoria e a otimização da manutenção.
       </p>
     </div>
 
     <section class="projeto-tecnologias fade">
       <h2>Tecnologias Utilizadas</h2>
       <div class="tech-list">
-        <span>Python</span>
-        <span>Grafana</span>
+        <span>Fast API</span>
         <span>Docker</span>
-        <span>SQL</span>
-        <span>Node-RED</span>
+        <span>SQL Server</span>
+        <span>HTML</span>
+        <span>JS</span>
+        <span>TailWind</span>
+        <span>OPCUA</span>
       </div>
     </section>
 
     <section class="projeto-detalhes fade">
       <h2>Informações do Projeto</h2>
-      <p>
-        O sistema desenvolvido realiza coleta de dados em tempo real de sensores industriais, processando as informações via Python e armazenando em um banco de dados SQL. 
-        Utilizando Docker para containerização e Grafana para visualização, o projeto oferece painéis dinâmicos e alertas de performance.
-      </p>
-      <p>
-        O foco principal foi criar uma solução escalável e fácil de manter, com segurança reforçada e automação de processos de coleta e análise.
-      </p>
-    </section>
+  <p>
+    O sistema coleta dados de parada de máquina diretamente do CLP através do protocolo OPC UA, fornecendo em tempo real o status e o tempo de inatividade de cada equipamento.
+  </p>
+  <p>
+    Este projeto teve como principal objetivo substituir duas plataformas anteriores (G-Vidros e cálculo de MTBF/MTTR via SAP) que apresentavam baixa precisão devido à dependência de alimentação manual de dados, eliminando assim as falhas humanas no input das informações.
+  </p>
+  <p>
+    <strong>Principais funcionalidades:</strong> verificação de tempo de parada, classificação de tipo de falha, identificação de paradas programadas, integração com 5 Porquês, comparação de indicadores entre máquinas e cálculo automático de MTBF, MTTR e percentual de paradas programadas.
+  </p>
+  <p>
+    <strong>Resultado financeiro:</strong> economia de R$ 120.000,00 que seria gasto com solução externa, além da vantagem do lançamento automático de paradas, eliminando a dependência de input manual.
+  </p>
+</section>
 
     <section class="projeto-galeria fade">
       <h2>Galeria</h2>
       <div class="galeria-grid">
-        <img src="../imagens/projetos/foto1.jpg" alt="Imagem do projeto 1">
-        <img src="../imagens/projetos/foto2.jpg" alt="Imagem do projeto 2">
-        <img src="../imagens/projetos/foto3.jpg" alt="Imagem do projeto 3">
+        <img src="../imagens/projetos/smartglass2.png" alt="Imagem do projeto 1">
+        <img src="../imagens/projetos/smartglass3.png" alt="Imagem do projeto 2">
+        <img src="../imagens/projetos/smartglass4.png" alt="Imagem do projeto 3">
       </div>
     </section>
 
